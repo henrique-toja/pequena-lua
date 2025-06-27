@@ -17,6 +17,11 @@
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(5px);
     }
+    /* Classe customizada para o efeito de hover no gradiente do contorno */
+    .hover-lift:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 <body class="bg-gray-100">
@@ -39,14 +44,20 @@
   <section class="mb-8">
     <h2 class="text-2xl font-semibold text-white mb-4 drop-shadow">Entre nos nossos grupos e fique por dentro das novidades! ✨</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <a href="https://chat.whatsapp.com/HHRbIBTQIj6DX5Ajenjq2U?mode=ac_t" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center shadow-md hover:shadow-lg">
-        <i class="fab fa-whatsapp text-2xl mr-3"></i> Menino 👦
+      <a href="https://chat.whatsapp.com/HHRbIBTQIj6DX5Ajenjq2U?mode=ac_t" target="_blank" class="p-0.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-lg text-white font-bold transition-all duration-300 hover-lift">
+        <div class="bg-gray-800/80 hover:bg-gray-800/90 rounded-md w-full h-full flex items-center justify-center py-3 px-4">
+          <i class="fab fa-whatsapp text-2xl mr-3"></i> Menino 👦
+        </div>
       </a>
-      <a href="https://chat.whatsapp.com/BtcdU99MKj8CFkl5L7pi6x?mode=ac_t" target="_blank" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center shadow-md hover:shadow-lg">
-        <i class="fab fa-whatsapp text-2xl mr-3"></i> Menina 👧
+      <a href="https://chat.whatsapp.com/BtcdU99MKj8CFkl5L7pi6x?mode=ac_t" target="_blank" class="p-0.5 bg-gradient-to-r from-pink-500 to-rose-400 rounded-lg text-white font-bold transition-all duration-300 hover-lift">
+        <div class="bg-gray-800/80 hover:bg-gray-800/90 rounded-md w-full h-full flex items-center justify-center py-3 px-4">
+          <i class="fab fa-whatsapp text-2xl mr-3"></i> Menina 👧
+        </div>
       </a>
-      <a href="https://chat.whatsapp.com/EzYGTgbJQwrKj3TPbCj0lb?mode=ac_t" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-300 flex items-center justify-center shadow-md hover:shadow-lg">
-        <i class="fab fa-whatsapp text-2xl mr-3"></i> Neutro 👶
+      <a href="https://chat.whatsapp.com/EzYGTgbJQwrKj3TPbCj0lb?mode=ac_t" target="_blank" class="p-0.5 bg-gradient-to-r from-yellow-500 to-amber-400 rounded-lg text-white font-bold transition-all duration-300 hover-lift">
+        <div class="bg-gray-800/80 hover:bg-gray-800/90 rounded-md w-full h-full flex items-center justify-center py-3 px-4">
+          <i class="fab fa-whatsapp text-2xl mr-3"></i> Neutro 👶
+        </div>
       </a>
     </div>
   </section>
@@ -54,7 +65,7 @@
   <section class="mb-8">
     <h2 class="text-2xl font-semibold text-white mb-4 drop-shadow">Venha nos visitar! 📍</h2>
     <p class="text-gray-200 mb-4">Nosso cantinho foi feito com muito amor para receber você e seu bebê. Vem nos conhecer! 😊</p>
-<a href="https://wa.me/555189698086?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita." target="_blank" class="bg-teal-500 hover:bg-teal-600 text-white border-2 border-teal-500 hover:border-teal-600 font-bold py-3 px-6 rounded-full transition-all duration-300 inline-flex items-center shadow-md hover:shadow-lg">
+    <a href="https://wa.me/555189698086?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita." target="_blank" class="bg-[#25D366] hover:bg-[#1DA851] text-white font-bold py-3 px-6 rounded-full transition-all duration-300 inline-flex items-center shadow-md hover:shadow-lg hover:-translate-y-0.5">
       <i class="fab fa-whatsapp text-xl mr-3"></i> Agendar visita 🗓️
     </a>
     <div class="my-6 rounded-lg overflow-hidden shadow-lg">
